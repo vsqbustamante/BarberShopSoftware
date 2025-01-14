@@ -56,13 +56,13 @@ Esta solución busca optimizar la gestión diaria de las barberías.
     docker-compose up --build
 
 
-Patrones de Diseño y Justificación
+**Patrones de Diseño y Justificación**
 
 CQRS: Separación de consultas y comandos para simplificar la lógica y optimizar el rendimiento.
 Repository Pattern: Facilita el acceso a los datos mediante repositorios.
 Component-Based Design: Frontend basado en componentes reutilizables.
 
-Principios SOLID Aplicados
+**Principios SOLID Aplicados**
 
 S: Responsabilidad única para controladores, servicios y modelos.
 O: Código abierto para extensión al agregar nuevas funcionalidades.
@@ -70,7 +70,7 @@ L: Sustitución de Liskov asegurada en servicios genéricos.
 I: Interfaces específicas para clientes y productos.
 D: Inversión de dependencias mediante inyección en Startup.cs.
 
-Prácticas OWASP Implementadas
+**Prácticas OWASP Implementadas**
 
 Validación de Entradas:
 Sanitización de datos recibidos en el backend.
